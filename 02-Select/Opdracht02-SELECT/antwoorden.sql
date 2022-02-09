@@ -1,12 +1,19 @@
 -- Opdracht 1 - voorbeeld
 SELECT * FROM jaar2016;
+
 -- Opdracht 2 
-SELECT * FROM `jaar2015` WHERE rank = 1;
+SELECT * FROM jaar2015;
+
 -- Opdracht 3
-Select country, score From jaar2016;
+SELECT country, score FROM `jaar2016`;
+
 -- Opdracht 4
-SELECT region From jaar2015;
+SELECT region FROM `jaar2015`;
+
 -- Opdracht 5
-Select region, score from jaar2015;
+SELECT score, region FROM `jaar2015`;
+
 -- Opdracht 6
-Select score From jaar2016;
+SELECT score, rank FROM `jaar2016`;
+
+-- Opdracht 7
